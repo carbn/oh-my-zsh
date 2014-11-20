@@ -86,3 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Find new binaries automatically
 zstyle ":completion:*:commands" rehash 1
+
+if [ -f /usr/share/pantheon-terminal/enable-zsh-completion-notifications ]; then
+    source /usr/share/pantheon-terminal/enable-zsh-completion-notifications
+fi
