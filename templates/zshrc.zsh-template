@@ -84,8 +84,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# Use grep-like colors with ag
-alias ag="ag --color-line-number='32' --color-match='1;31' --color-path='35'"
+# Use grep-like colors with ag and enable pager
+alias ag="ag --color-line-number='32' --color-match='1;31' --color-path='35' --pager='less -R'"
 
 # Find new binaries automatically
 zstyle ":completion:*:commands" rehash 1
